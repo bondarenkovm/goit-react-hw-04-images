@@ -6,7 +6,6 @@ import { Header, Form, Button, Input } from './Searchbar.styled';
 
 const Searchbar = ({ formSubmit }) => {
   const handleSubmit = ({ imageName }, { resetForm }) => {
-    // console.log(imageName);
     if (imageName.trim() === '') {
       toast.error('Enter something!', {
         style: {
