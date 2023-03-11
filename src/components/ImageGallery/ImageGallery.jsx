@@ -1,11 +1,6 @@
-// import { Component } from 'react';
 import PropTypes from 'prop-types';
-// import { toast } from 'react-hot-toast';
 import { List, Item } from './ImageGallery.styled';
-// import { fetchPixabay } from 'services/fetchPixabayAPI';
 import { ImageGalleryItem } from 'components/ImageGalleryItem';
-// import { Button } from 'components/Button';
-// import { Loader } from 'components/Loader';
 
 function ImageGallery({ items }) {
   return (
@@ -28,7 +23,6 @@ function ImageGallery({ items }) {
 }
 
 ImageGallery.propTypes = {
-  // value: PropTypes.string.isRequired,
   items: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
 };
 export { ImageGallery };
